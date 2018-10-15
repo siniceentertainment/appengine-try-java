@@ -12,6 +12,14 @@
         <servlet-name>demo</servlet-name>
         <url-pattern>/demo</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>sqldemo</servlet-name>
+        <servlet-class>myapp.CloudSQLServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sqldemo</servlet-name>
+        <url-pattern>/sqldemo</url-pattern>
+    </servlet-mapping>
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
